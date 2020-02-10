@@ -1,0 +1,115 @@
+
+/*
+ #eb6263;
+ #eb7e7f;
+ #4a4f56;
+*/
+*{transition: all .2s ease-in;}
+
+input:checked+[for]{
+    text-decoration: line-through;
+    color: rgb(179, 177, 177);
+}
+
+.header{
+    background-color:#4a4f56 ;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -8px;
+    color:  #eb7e7f;
+    font-family: 'Raleway', sans-serif;
+}
+
+section:nth-of-type(2){
+    padding-bottom: 5px;
+    font-weight: 20px;
+    margin-top: -10px;
+}
+section:nth-of-type(1){
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ul{
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    width: 40%;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 500;
+    padding-right: 38px;
+
+}
+[type]{
+    margin-left: 15px;
+}
+li:nth-child(2n+1){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #88839e;
+}
+li:nth-child(2n){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #7a7593;
+}
+html{
+    border: 20px white solid;
+    height: 95%;
+    text-align: center;
+}
+
+main section:last-of-type{
+    display: inline-block;
+    background-color: #4a4f56;
+    margin-top: 15px;
+    width: 40%;
+    color: #eb7e7f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    height: 60px;
+    border: 2px solid transparent;
+}
+li:hover{
+border-top: white 3px solid;
+border-bottom: white 3px solid;
+background-color: #66607c;
+cursor: pointer;
+}
+li{
+    border: 3px solid transparent;
+}
+li:active{
+    background-color: #eb7e7f;
+}
+.ul li:first-of-type:after{
+    content: "(10pts)";
+}
+.ul li:nth-of-type(2):after{
+    content: "(10pts)";
+}
+.ul li:nth-of-type(3):after{
+    content: "(10pts)";
+}
+.ul li:nth-of-type(4):after{
+    content: "(10pts)";
+}
+.ul li:nth-of-type(5):after{
+    content: "(10pts)";
+}
+.ul li:nth-of-type(6):after{
+    content: "(10pts)";
+}
+.ul :after{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+main section:last-child:hover{
+background-color: rgba(88, 88, 88, 0.267);
+border: 2px solid #eb7e7f;
+}
